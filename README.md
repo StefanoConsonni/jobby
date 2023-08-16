@@ -1,6 +1,6 @@
 # Jobby App
 
-This repository contains a job board App built with React Native.
+This repository contains a job board App built with React Native. The App has search and pagination functionalities.
 
 ### Setup
 
