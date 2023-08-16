@@ -1,14 +1,31 @@
-# Expo Router Example
+# Jobby App
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+This repository contains a job board App built with React Native.
 
-## 🚀 How to use
+### Setup
 
-```sh
-npx create-expo-app -e with-router
+Rename the `.env.example` file to `.env` and follow the instructions provided in the .env file
+
+### Install Dependencies (frontend & backend)
+
+Ensure that [nvm](https://github.com/nvm-sh/nvm), [npm](https://www.npmjs.com/) and Nodemon are installed globally
+
+Install the correct version of Node running this command in the project root folder
+
+```
+nvm install
 ```
 
-## 📝 Notes
+```
+npm install
+```
 
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
+### Run
+
+```
+# Run the app
+npx expo start —tunnel
+
+# Install the Expo Go app on your phone and scan the QR code that you find the the terminal
+
+```
