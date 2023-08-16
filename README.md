@@ -22,10 +22,11 @@ npm install
 
 ### Run
 
+Run the app locally
+
 ```
-# Run the app
 npx expo start —tunnel
 
-# Install the Expo Go app on your phone and scan the QR code that you find the the terminal
-
 ```
+
+Install the Expo Go app on your phone and scan the QR code that you find the the terminal. It will open the app and run it on your device.
